@@ -1,0 +1,573 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+.wrapper-header {
+    background-color: #FED100;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1312px;
+    margin: 0 auto;
+    padding-top: 40px;
+    position: relative;
+}
+.nav {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 50px;
+}
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.header-tel {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.header-dscr {
+    max-width: 1312px;
+    margin: 0 auto;
+}
+.title-top {
+    font-weight: bold;
+    font-size: 70px;
+    color: #333333;
+    line-height: 75px;
+}
+.title-description {
+    font-weight: 600;
+    font-size: 30px;
+    color: #333333;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.about-us-container {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 95px;
+}
+.title-btn {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2F2F2;
+    padding: 15px 95px;
+    background-color: #FF352B;
+    border: none;
+    text-decoration: none;
+}
+.title-item {
+    display: flex;
+    padding-right: 35px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 95px;
+}
+.title-item-description {
+    margin-left: 10px;
+}
+.header-img {
+    float: right;
+    position: relative;
+}
+
+.image-truck {
+    position: absolute;
+    left: -560px;
+    top: 95px;
+}
+.image-courier {
+    position: absolute;
+    left: -860px;
+    top: -30px;
+}
+
+
+@keyframes phone-rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes btn-phone-cirkle {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.wrap {
+    position: relative;
+}
+.btn-call {
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 525px;
+}
+
+.btn-phone-wrap {
+    position: relative;
+}
+.btn-phone {
+    background: rgba(61, 155, 233, 0.8) url(/img/phone.png) center center no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    animation: phone-rotate 1s infinite alternate linear;
+}
+.btn-phone-cirkle {
+    height: 80px;
+    width: 80px;
+    border: 9px solid rgba(61, 155, 233, 0.3);
+    border-radius: 60px;
+    animation: btn-phone-cirkle 1s infinite alternate linear;
+}
+/* MAIN */
+
+
+
+.wrapper-main {
+    max-width: 1106px;
+    margin: auto;
+    
+}
+.container-steps {
+    max-width: 1106px;
+    margin-top: 85px;
+}
+
+.container-steps-item-one {
+    display: flex;
+    align-items: flex-start;
+    max-width: 479px;
+}
+.container-steps-item-two {
+    display: flex;
+    align-items: flex-start;
+    max-width: 493px;
+}
+.container-steps-item-three {
+    display: flex;
+    align-items: flex-start;
+    max-width: 497px;
+}
+.container-steps-item-for {
+    display: flex;
+    align-items: flex-start;
+    max-width: 469px;
+}
+.container-steps-item-first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container-steps-item-last {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1082px;
+}
+
+.container-steps-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.steps {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 61px;
+    color: #333333;
+    padding-right: 42px;
+}
+.container-steps-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.container-steps-item-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    max-width: 390px;
+}
+
+
+
+/* price */
+.section-price {
+    max-width: 1305px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.section-price-title {
+    padding-bottom: 15px;
+    margin-bottom: 60px;
+}
+.price-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+
+}
+.price-description {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.section-price-room {
+    border: 1px solid #EBEBEB;
+    width: 420px;
+    height: 579px;
+    text-align: center;
+}
+.section-price-room:hover {
+    border: 2px solid #FED100;
+}
+.section-price-room-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 85px;
+}
+.section-price-room-description {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.section-price-room-description-item {
+    padding-bottom: 25px;
+}
+.section-price-room-description-price {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-bottom: 52px;
+}
+.price-btn-container {
+    margin-top: 50px;
+}
+.price-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    padding: 14px 77px;
+    background-color: #FED100;
+}
+.section-price-room-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+/* car park */
+
+.section-car-park-wraper {
+    margin-top: 100px;
+    max-width: 1205px;  
+    margin: auto;
+}
+.section-car-park-title-wrapper {
+    text-align: center;
+}
+.section-car-park-title {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.car-park-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
+
+.car-park-title-description {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.car-park-btn-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    padding: 13px 64px;
+    background-color: none;
+    border: 1px solid #EBEBEB;
+    margin-right: 20px;
+}
+.car-park-btn-item:hover {
+    border: 1px solid #FED100;
+}
+.section-about-car {
+    margin-top: 97px;
+    margin-bottom: 130px;
+    position: relative;
+}
+.section-about-car-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.section-about-car-list {
+    list-style-image: url(/img/Vector.svg);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+.section-about-car-item {
+    margin-bottom: 28px;
+}
+.section-park-car-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    padding: 13px 79px;
+    background-color: #FED100;
+    text-align: center;
+}
+.section-about-car-img {
+    position: absolute;
+    right: 190px;
+    top: 2430px;
+}
+
+
+
+.section-reviews-wrapper-main {
+    background-color: white;
+}
+
+.section-reviews-wrapper {
+    margin: auto;
+    max-width: 1304px;
+}
+
+.section-reviews-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    padding-top: 100px;
+    text-align: center;
+}
+.section-reviews-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1304px;
+}
+.section-reviews {
+    max-width: 420px;
+}
+.section-rewies-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.section-reviews-details {
+    display: flex;
+}
+.section-reviews-details-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-right: 10px;
+}
+.section-reviews-details-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.section-reviews-details-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.section-reviews-btn {
+    margin-top: 60px;
+    padding-bottom: 95px;
+    text-align: center;
+}
+.section-reviews-btn-description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    padding: 13px 64px;
+    border: 1px solid #333333;
+    text-align: center;
+}
+
+
+.section-map-wrapper {
+    height: 666px;
+    background-image: url(/img/Rectangle\ 21.png);
+}
+.section-map {
+    background-color: white;
+    max-width: 368px;
+    
+    
+}
+.section-map-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section-map-list {
+    list-style-image: url(/img/checkIcon.png);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+    margin-bottom: 57px;
+}
+.section-map-item {
+    padding-bottom: 20px;
+    
+}
+.section-map-mail {
+    text-decoration: underline;
+}
+.section-map-social {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 37px;
+    padding-bottom: 40px;
+}
+.section-social-img {
+    padding-right: 25px;
+}
+
+
+/* footer */
+
+.footer-wrapper {
+    background-color: #FED100;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1305px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #333333;
+}
+.footer-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130.4%;
+    color: #0E0F12;
+    text-decoration: none; 
+}
+.footer-link-container {
+    padding-bottom: 35px;
+}
+.footer-menu-list {
+    list-style-type: none;
+    
+}
+.footer-menu-item {
+    margin-bottom: 15px;
+}
+.footer-menu-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    
+}
+
+.footer-social-link {
+    padding-right: 30px;
+}
+.footer-social-link-list {
+    margin-bottom: 20px;
+}
+.footer-call {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+.footer-mail {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+.footer-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #333333;
+}
+.footer-number {
+    text-decoration: underline;
+    text-align: center;
+}
