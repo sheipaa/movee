@@ -131,7 +131,7 @@ body {
     position: relative;
 }
 .btn-phone {
-    background: rgba(61, 155, 233, 0.8) url(/img/phone.png) center center no-repeat;
+    background: rgba(61, 155, 233, 0.8) url(img/phone.png) center center no-repeat;
     height: 100px;
     width: 100px;
     border-radius: 50px;
